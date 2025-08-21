@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MissingAPublicInstanceConstructor;
+using System.Reflection;
 
 internal class Program
 {
@@ -22,5 +23,7 @@ internal class Program
 
         Console.WriteLine($"config2.PropString: '{config2.PropString}'");
         Console.WriteLine($"config2.PropClass1.PropString: '{config2.PropClass1.PropString}'");
+
+        Console.ReadLine();
     }
 }

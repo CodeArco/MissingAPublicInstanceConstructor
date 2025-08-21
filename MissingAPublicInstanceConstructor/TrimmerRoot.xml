@@ -1,0 +1,7 @@
+﻿<linker>
+	<assembly fullname="MissingAPublicInstanceConstructor">
+		<type fullname="MissingAPublicInstanceConstructor.Config" preserve="all" />
+		<type fullname="MissingAPublicInstanceConstructor.Class1" preserve="all" />
+		<type fullname="MissingAPublicInstanceConstructor.Class2" preserve="all" />
+	</assembly>
+</linker>
